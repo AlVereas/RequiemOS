@@ -1,0 +1,10 @@
+# Base packages
+base-devel
+git
+vim
+zsh
+firefox
+htop
+
+# Desktop environment
+hyprland
