@@ -5,8 +5,8 @@ My Arch linux hyprland Desktop with all features ready to go
 
 ### Clone the repo:
 ```
-git clone https://github.com/username/arch-desktop.git
-cd arch-desktop
+git clone https://github.com/Vexn137/VyArch.git
+cd VyArch
 ```
 ### Run the installer:
 ```
