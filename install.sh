@@ -34,13 +34,12 @@ xargs -a packages/aur.txt yay -S --noconfirm
 # 5. Copy dotfiles
 # -----------------------------
 echo "Setting up dotfiles..."
-cp -r dotfiles/.* ~ 2>/dev/null || true
+cp -r dotfiles/* ~/.config/
+cp dotfiles/.zshrc ~/
 
 # -----------------------------
-# 6. Optional scripts
+# 6. Enable services
 # -----------------------------
-if [ -f scripts/setup.sh ]; then
-    bash scripts/setup.sh
-fi
+systemctl --user enable pipewire wireplumber pipewire-pulse
 
-echo "Setup complete! Please restart your terminal."
+echo "Hyprland setup complete! Reboot and start Hyprland."
