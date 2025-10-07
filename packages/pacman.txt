@@ -3,8 +3,22 @@ base-devel
 git
 vim
 zsh
+
 firefox
 htop
 
+
 # Desktop environment
+dolphin
+dunst
+grim
 hyprland
+kitty
+polkit
+polkit-kde-agent
+qt5-wayland
+qt6-wayland
+slurp
+uwsm
+wofi
+xdg-desktop-portal-hyprland
