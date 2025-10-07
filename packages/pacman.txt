@@ -1,4 +1,4 @@
-# Base packages
+
 base-devel
 git
 vim
@@ -8,7 +8,6 @@ firefox
 htop
 
 
-# Desktop environment
 dolphin
 dunst
 grim
