@@ -1,12 +1,12 @@
-# FULGORA CORE
+# Aethereos-Core
 My Arch linux hyprland Desktop
 
 ## Set Up
 
 ### Clone the repo:
 ```
-git clone https://github.com/Vexn137/Fulgora-Core.git
-cd Fulgora-Core
+git clone https://github.com/Vexn137/Aethereos-Core.git
+cd Aethereos-Core
 ```
 ### Run the installer:
 ```
