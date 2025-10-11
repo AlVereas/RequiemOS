@@ -4,7 +4,7 @@ set -e
 # -----------------------------
 # 1. Update system
 # -----------------------------
-sudo pacman -Syu --noconfirm
+sudo pacman -Syu --noconfirm || true
 
 # -----------------------------
 # 2. Install pacman packages
