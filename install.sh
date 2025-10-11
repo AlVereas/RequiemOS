@@ -35,8 +35,9 @@ xargs -a packages/aur.txt yay -S --noconfirm
 # -----------------------------
 echo "Setting up dotfiles..."
 if [ -d "dotfiles" ]; then
-    cp -r dotfiles/* ~/.config/
-    cp dotfiles/.zshrc ~/
+    mkdir -p ~/.config
+    rsync -a dotfiles/ ~/.config/
+    [ -f dotfiles/.zshrc ] && cp dotfiles/.zshrc ~/
 else
     echo "Warning: dotfiles directory not found, skipping..."
 fi
