@@ -34,8 +34,13 @@ xargs -a packages/aur.txt yay -S --noconfirm
 # 5. Copy dotfiles
 # -----------------------------
 echo "Setting up dotfiles..."
-cp -r dotfiles/* ~/.config/
-cp dotfiles/.zshrc ~/
+if [ -d "dotfiles" ]; then
+    cp -r dotfiles/* ~/.config/
+    cp dotfiles/.zshrc ~/
+else
+    echo "Warning: dotfiles directory not found, skipping..."
+fi
+
 
 # -----------------------------
 # 6. Enable services
