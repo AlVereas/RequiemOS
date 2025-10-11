@@ -1,12 +1,12 @@
-# FULGORA
-My Arch linux hyprland Desktop with all features ready to go
+# FULGORA CORE
+My Arch linux hyprland Desktop
 
 ## Set Up
 
 ### Clone the repo:
 ```
-git clone https://github.com/Vexn137/Fulgora.git
-cd VyArch
+git clone https://github.com/Vexn137/Fulgora-Core.git
+cd Fulgora-Core
 ```
 ### Run the installer:
 ```
