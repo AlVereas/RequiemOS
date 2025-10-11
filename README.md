@@ -1,12 +1,12 @@
-# Aethereos-Core
+# Aethereos System
 My Arch linux hyprland Desktop
 
 ## Set Up
 
 ### Clone the repo:
 ```
-git clone https://github.com/Vexn137/Aethereos-Core.git
-cd Aethereos-Core
+git clone https://github.com/Vexn137/Aethereos.git
+cd Aethereos
 ```
 ### Run the installer:
 ```
