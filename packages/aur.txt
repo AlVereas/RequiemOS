@@ -1,1 +1,3 @@
 yay
+quickshell-git
+grimblast-git

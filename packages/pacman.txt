@@ -1,22 +1,28 @@
-
+# Core
 base-devel
 git
 vim
+nano
 zsh
+rsync
 
 firefox
 htop
 
-
+# Desktop environment
+kitty
 dolphin
 dunst
 grim
+wl-clipboard
 hyprland
-kitty
+code
 polkit
 polkit-kde-agent
+qt6-base
 qt5-wayland
 qt6-wayland
+qt6-declarative
 slurp
 uwsm
 wofi

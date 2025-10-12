@@ -10,7 +10,7 @@ sudo pacman -Syu --noconfirm || true
 # 2. Install pacman packages
 # -----------------------------
 echo "Installing pacman packages..."
-xargs -a packages/pacman.txt sudo pacman -S --noconfirm
+xargs -a <(grep -v '^#' packages/pacman.txt) sudo pacman -S --noconfirm
 
 # -----------------------------
 # 3. Install yay (AUR helper)
@@ -28,7 +28,7 @@ fi
 # 4. Install AUR packages
 # -----------------------------
 echo "Installing AUR packages..."
-xargs -a packages/aur.txt yay -S --noconfirm
+xargs -a <(grep -v '^#' packages/aur.txt) yay -S --noconfirm
 
 # -----------------------------
 # 5. Copy dotfiles
