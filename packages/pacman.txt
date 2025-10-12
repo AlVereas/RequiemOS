@@ -16,6 +16,8 @@ dunst
 grim
 wl-clipboard
 hyprland
+htopbr
+fastfetch
 code
 polkit
 polkit-kde-agent
@@ -27,3 +29,5 @@ slurp
 uwsm
 wofi
 xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+flatpak
