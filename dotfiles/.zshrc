@@ -2,6 +2,7 @@
 export PATH="$HOME/bin:$PATH"
 
 # Prompt
+fastfetch
 autoload -Uz promptinit
 promptinit
 prompt adam1
