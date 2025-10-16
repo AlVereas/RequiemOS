@@ -1,0 +1,1 @@
+yay -Sy brave-bin
