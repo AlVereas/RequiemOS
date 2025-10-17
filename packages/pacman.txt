@@ -16,6 +16,7 @@ dunst
 grim
 wl-clipboard
 hyprland
+brightnessctl
 htopbr
 fastfetch
 code
